@@ -35,6 +35,9 @@
                 <li class="nav-item active">
                     <a href="#" class="nav-link active">Contact</a>
                 </li>
+                 <li class="nav-item active">
+                    <a href="medicine.php" class="nav-link active">Medicines</a>
+                </li>
 
                 <li class="nav-item active dropdown">
                     <a href="#" class="nav-link active dropdown-toggle" 
