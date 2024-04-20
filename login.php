@@ -17,7 +17,7 @@
 
   <nav class="navbar navbar-expand-sm navbar-light bg-light">
   <div class="container">
-        <a href="" class="navbar-brand mb-0 h3">Pharmacy</a>
+        <a href="" class="navbar-brand mb-0 h3">Judy Botika</a>
 
         <button type="button" data-bs-toggler="collapse" data-bs-target="#navbarNav" class="navbar-toggler" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="naebar-toggler-icon"></span>
@@ -34,6 +34,9 @@
 
                 <li class="nav-item active">
                     <a href="#" class="nav-link active">Contact</a>
+                </li>
+                 <li class="nav-item active">
+                    <a href="medicine.php" class="nav-link active">Medicines</a>
                 </li>
 
                 <li class="nav-item active dropdown">
