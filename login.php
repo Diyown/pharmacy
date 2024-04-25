@@ -213,15 +213,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="img/pic1.jpg" class="d-block w-100" style="width: 100%; height: 500px;"
+                        <img src="img/1.jpg" class="d-block w-100" style="width: 100%; height: 500px;"
                              alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="img/pic2.jpg" class="d-block w-100" style="width: 100%; height: 500px;"
+                        <img src="img/2.jpg" class="d-block w-100" style="width: 100%; height: 500px;"
                              alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="img/pic3.jpg" class="d-block w-100" style="width: 100%; height: 500px;"
+                        <img src="img/3.jpg" class="d-block w-100" style="width: 100%; height: 500px;"
+                             alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/4.jpg" class="d-block w-100" style="width: 100%; height: 500px;"
                              alt="...">
                     </div>
                 </div>
