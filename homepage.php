@@ -13,7 +13,9 @@
       color: #ffffff;
     }
     .sidebar-heading {
-      font-size: 1.2rem;
+      font-size: 30px;
+	  font-weight: bold;
+	  
     }
   </style>
 </head>
@@ -22,7 +24,7 @@
     <div class="row">
       <!-- Sidebar -->
       <div class="col-md-3 sidebar py-4">
-        <h2 class="sidebar-heading text-center mb-4">Dashboard</h2>
+        <h2 class="sidebar-heading text-left mb-4">Dashboard</h2>
         <ul class="nav flex-column">
           <li class="nav-item">
             <a class="nav-link" href="#">Home</a>
