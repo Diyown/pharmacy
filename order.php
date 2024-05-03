@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Admin Page</title>
+	<title>Order Page</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<style>
 		body {
@@ -52,22 +52,7 @@
 			align-items: center;
 			height: 100vh; 
 		}
-		.wrapper{
-			width: 1000px;
-			height: 400px;
-			padding: 15px;
-			background-color: #ede9e8;
-			box-shadow: 10px 15px 10px grey;
-			border-radius: 10px;
-			
-		}
-		.wrapper h2{
-			font-weight: bold;
-		}
-		.wrapper p{
-			font-size: 20px;
-			
-		}
+		
 	</style>
 	
 </head>
@@ -82,10 +67,7 @@
     </div>
 <!--============CONTENT==============-->
     <div class="content">
-		<form class="wrapper">
-			<h2>JUDE BOTIKA</h2><br>
-			<p>Welcome to the Pharmacy Dashboard, Admin! Your gateway to managing and optimizing pharmaceutical operations. Dive into insights, streamline workflows, and ensure seamless coordination. Let's empower healthcare together!</p>
-		</form>
+		
     </div>
 </body>
 </body>
