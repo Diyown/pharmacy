@@ -1,5 +1,7 @@
 <?php
-    $host = "localhost";
+    session_start();
+	
+	$host = "localhost";
     $username = "root";
     $password = "";
     $dbname = "pharmacy";
