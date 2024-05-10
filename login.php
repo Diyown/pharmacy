@@ -8,10 +8,11 @@
     <title>Pharmacy</title>
     <style>
         .carousel-item img {
-            width: 100%;
-            height: 600px;
-            object-fit: cover;
-        }
+        width: 100%;
+        height: 100%
+        object-fit: fill;
+    }
+
 		
     </style>
 </head>
@@ -106,7 +107,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <a href="#" class="nav-link active">Contact</a>
                 </li>
                 <li class="nav-item active">
-                    <a href="medicine.php" class="nav-link active">Medicines</a>
+                    <a href="#" class="nav-link active">Medicines</a>
                 </li>
 
                 <li class="nav-item active dropdown">
@@ -213,27 +214,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </div>
     </div>
 </div>
-
 <div class="container-fluid">
     <div class="row">
         <div class="col">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="img/1.jpg" class="d-block w-100" style="width: 100%; height: 500px;"
-                             alt="...">
+                        <img src="img/1.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="img/2.jpg" class="d-block w-100" style="width: 100%; height: 500px;"
-                             alt="...">
+                        <img src="img/2.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="img/3.jpg" class="d-block w-100" style="width: 100%; height: 500px;"
-                             alt="...">
+                        <img src="img/3.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="img/4.jpg" class="d-block w-100" style="width: 100%; height: 500px;"
-                             alt="...">
+                        <img src="img/4.jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"

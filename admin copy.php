@@ -75,10 +75,10 @@
     <div class="sidebar">
 		<h2>ADMIN DASHBOARD</h2>
         <a href="admin.php">Home</a>
+        <a href="medicine.php">Order</a>
+        <a href="#services">Order History</a>
         <a href="admin-stocks.php">Stocks</a>
-		<a href="order-history.php">Order History</a>
 		<a href="login.php">Log Out</a>
-		
     </div>
 <!--============CONTENT==============-->
     <div class="content">
