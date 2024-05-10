@@ -7,55 +7,77 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <style>
-    /* Custom styles */
-    .sidebar {
-      background-color: #343a40;
-      color: #ffffff;
-    }
-    .sidebar-heading {
-      font-size: 30px;
-	  font-weight: bold;
-	  
-    }
-  </style>
+		body {
+			margin: 0;
+			font-family: Arial, sans-serif;
+		}
+/*==========NAVIGATION SIDE BAR=============*/
+		.sidebar {
+			height: 100%;
+			width: 300px;
+			position: fixed;
+			top: 0;
+			left: 0;
+			background-color: #333;
+			padding-top: 20px;
+		}
+
+		.sidebar a {
+			padding: 10px 15px;
+			text-decoration: none;
+			font-size: 18px;
+			color: #fff;
+			display: block;
+		}
+
+		.sidebar a:hover {
+			background-color: #555;
+		}
+
+		.content {
+			margin-left: 200px;
+			padding: 20px;
+		}
+		.sidebar h2 {
+			color: #fff; 
+			font-family: "Arial Black", sans-serif; 
+			font-size: 24px; 
+			text-align: left; 
+			margin-bottom: 20px; 
+			margin-left: 20px;
+		}
+/*===========CONTENT=============*/
+		.content {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh; 
+		}
+		.wrapper{
+			width: 1000px;
+			height: 400px;
+			padding: 15px;
+			background-color: #ede9e8;
+			box-shadow: 10px 15px 10px grey;
+			border-radius: 10px;
+			
+		}
+		.wrapper h2{
+			font-weight: bold;
+		}
+		.wrapper p{
+			font-size: 20px;
+			
+		}
+    </style>
 </head>
 <body>
-  <div class="container-fluid">
-    <div class="row">
-      <!-- Sidebar -->
-      <div class="col-md-3 sidebar py-4">
-        <h2 class="sidebar-heading text-left mb-4">Dashboard</h2>
-        <ul class="nav flex-column">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Reports</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Analytics</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Settings</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="login.php">Logout</a>
-          </li>
-        </ul>
-      </div>
-
-      <!-- Main Content -->
-      <div class="col-md-9 py-4">
-        <h2>Main Content</h2>
-        <p>Welcome to your dashboard!</p>
-      </div>
-    </div>
+  <div class="sidebar">
+    <h2>WELCOME USER</h2>
+    <a href="homepage.php">Home</a>
+    <a href="order.php">Order</a>
+    <a href="order_history_user.php">Order History</a>
+    <a href="login.php">Log Out</a>
   </div>
-
-  <!-- Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
+  </body>
 </html>
